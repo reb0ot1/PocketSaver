@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneySaver.Client", "MoneySaver.Client\MoneySaver.Client.csproj", "{929EDED0-13F8-478E-A400-8091F8FB0A40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneySaver.Client", "MoneySaver.Client\MoneySaver.Client.csproj", "{929EDED0-13F8-478E-A400-8091F8FB0A40}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{A2A6D960-2EE3-4FD2-8826-216E4EDFB8A5}"
 EndProject
@@ -11,7 +11,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transaction", "Transaction"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "User", "User", "{F18C575F-35C2-4FC8-830D-20C969853107}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneySaver.Transaction.Api", "MoneySaver.Transaction\MoneySaver.Transaction.Api\MoneySaver.Transaction.Api.csproj", "{61819448-6160-43C6-9297-1E6ED941D430}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneySaver.Transaction.Api", "MoneySaver.Transaction\MoneySaver.Transaction.Api\MoneySaver.Transaction.Api.csproj", "{61819448-6160-43C6-9297-1E6ED941D430}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneySaver.Activities.Web", "MoneySaver.Transaction\MoneySaver.Activities.Web\MoneySaver.Activities.Web.csproj", "{0B965EAB-2F93-4882-B781-8B371BBB7726}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneySaver.Activities.Data", "MoneySaver.Transaction\MoneySaver.Activities.Data\MoneySaver.Activities.Data.csproj", "{3F3B4D4B-90CB-4ED6-8F68-20138A05434B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneySaver.Activities.Data.Models", "MoneySaver.Transaction\MoneySaver.Activities.Data.Models\MoneySaver.Activities.Data.Models.csproj", "{312D7049-5A78-4290-8F7C-48F965557FBF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +33,18 @@ Global
 		{61819448-6160-43C6-9297-1E6ED941D430}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61819448-6160-43C6-9297-1E6ED941D430}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61819448-6160-43C6-9297-1E6ED941D430}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B965EAB-2F93-4882-B781-8B371BBB7726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B965EAB-2F93-4882-B781-8B371BBB7726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B965EAB-2F93-4882-B781-8B371BBB7726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B965EAB-2F93-4882-B781-8B371BBB7726}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F3B4D4B-90CB-4ED6-8F68-20138A05434B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F3B4D4B-90CB-4ED6-8F68-20138A05434B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F3B4D4B-90CB-4ED6-8F68-20138A05434B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F3B4D4B-90CB-4ED6-8F68-20138A05434B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{312D7049-5A78-4290-8F7C-48F965557FBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{312D7049-5A78-4290-8F7C-48F965557FBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{312D7049-5A78-4290-8F7C-48F965557FBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{312D7049-5A78-4290-8F7C-48F965557FBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +52,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{929EDED0-13F8-478E-A400-8091F8FB0A40} = {A2A6D960-2EE3-4FD2-8826-216E4EDFB8A5}
 		{61819448-6160-43C6-9297-1E6ED941D430} = {BD41AA71-97B6-4E80-8411-9798007F29F4}
+		{0B965EAB-2F93-4882-B781-8B371BBB7726} = {BD41AA71-97B6-4E80-8411-9798007F29F4}
+		{3F3B4D4B-90CB-4ED6-8F68-20138A05434B} = {BD41AA71-97B6-4E80-8411-9798007F29F4}
+		{312D7049-5A78-4290-8F7C-48F965557FBF} = {BD41AA71-97B6-4E80-8411-9798007F29F4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5FC71962-045E-462F-8989-36B203C29733}
